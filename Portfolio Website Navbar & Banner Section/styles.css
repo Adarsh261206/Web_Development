@@ -19,15 +19,14 @@
 }
 
 img {
-    margin-top: 200px;
     height: 200px;
 }
 
 .hero {
     background-color: #191a1d;
-    font-family: roboto;
     height: 100vh;
     background-size: cover;
+    font-family: roboto;
     padding-left: 20px;
 }
 
