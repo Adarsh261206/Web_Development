@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  body{
+    background-color: #ffffff;
+  }
+  /* Weather App Container */
+  .weather-app {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/free-photo/photorealistic-style-clouds_23-2151058940.jpg?t=st=1739094707~exp=1739098307~hmac=440a9dfe1dc4ce108159d2efd0418a5a7742785eec913809112c35fc4b666024&w=996);
+    border-radius: 15px;
+    border-color: black;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Header Section */
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .header p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Main Weather Section */
+  .main-weather h2 {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .main-weather p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Additional Details Section */
+  .details {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
+  /* Hourly Forecast Section */
+  .hourly-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .hour {
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+  }
+  
+  /* Daily Forecast Section */
+  .daily-forecast {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .day {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .footer button:hover {
+    opacity: 0.8;
+  }
