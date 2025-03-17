@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    background-color: #2c2c2e;
+}
+
+.head {
+    font-weight: bold;
+    color: #ffffff;
+    border: solid;
+    border-width: 3px;
+    font-size: 30px;
+    height: 60px;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 1px;
+    border-color: #4b6cc1;
+}
+
+img {
+    margin-top: 200px;
+    height: 200px;
+}
+
+.hero {
+    background-color: #191a1d;
+    font-family: roboto;
+    height: 100vh;
+    background-size: cover;
+    padding-left: 20px;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 55px;
+}
+
+.hero p {
+    color: #9aa5b1;
+    font-size: 30px;
+}
+
+.button1 {
+    background-color: #4b6cc1;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 40px;
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+span {
+    color: #4b6cc1;
+}
