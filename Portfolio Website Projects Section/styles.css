@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.Portfolio-main-container {
+    background-color: #3e4c59;
+    background-size: cover;
+    font-family: Roboto;
+}
+
+.para {
+    color: #cced00;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.main-head {
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.project-section {
+    background-color: #323f4b;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.img {
+    height: 250px;
+    width: 400px;
+}
+.para-web{
+    color: #9aa5b1;
+    padding-top: 18px;
+    font-size: 14px;
+}
+.para1{
+    color: #ffffff;
+    font-size: 30px;
+}
+.para-description{
+    color: #9aa5b1;
+    font-size: 25px;
+}
+.read-more{
+    color: #cced00;
+}
