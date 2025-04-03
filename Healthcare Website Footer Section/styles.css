@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #1a5f7a;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-column h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #57c5b6;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: #e1e1e1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #57c5b6;
+}
+
+.contact-info p {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #57c5b6;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background-color: #57c5b6;
+}
+
+.bottom-bar {
+    background-color: #134b5f;
+    padding: 15px 0;
+    text-align: center;
+    color: #e1e1e1;
+    font-size: 14px;
+}
+
+.bottom-bar p {
+    margin-bottom: 5px;
+}
+
+.bottom-links a {
+    color: #e1e1e1;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bottom-links a:hover {
+    color: #57c5b6;
+}
+
+/* Emergency info highlight */
+.emergency-info {
+    background-color: #57c5b6;
+    color: #134b5f;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.emergency-info h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.emergency-info p {
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-column {
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+}
