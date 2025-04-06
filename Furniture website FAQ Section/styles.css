@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.faq-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+.faq-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+/* CSS-only accordion using the :target selector */
+.faq-item .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item:target .faq-answer {
+    max-height: 300px;
+    padding: 0 15px 15px;
+}
+
+.faq-question {
+    padding: 12px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+
+.faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+}
+
+.faq-item:target .faq-question::after {
+    content: '−';
+}
+
+.faq-answer p {
+    font-size: 14px;
+}
