@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #e2e2e2;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #111111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3aff8f;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3aff8f;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #3aff8f;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #e2e2e2;
+}
+
+.accent {
+    color: #3aff8f;
+}
+
+p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.primary-btn {
+    background-color: #3aff8f;
+    color: #0a0a0a;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.primary-btn:hover {
+    background-color: #2ce07c;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: #3aff8f;
+    padding: 12px 24px;
+    border: 1px solid #3aff8f;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.secondary-btn:hover {
+    background-color: rgba(58, 255, 143, 0.1);
+}
+
+.tech-stack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.tech-stack p {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.tech-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.tech-icons div {
+    width: 50px;
+    height: 50px;
+    background-color: #181818;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3aff8f;
+    color: #3aff8f;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.tech-icons div:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+        padding: 50px 0;
+        gap: 30px;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    
+    .tech-stack {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
